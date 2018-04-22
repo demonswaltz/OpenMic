@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background">
+    <ImageView
+        android:id="@+id/convo_pic"
+        android:padding="8dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/ic_conversation_foreground"
+        android:layout_alignParentRight="true"
+        />
+
+    <TextView
+        android:id="@+id/mission_head"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/convo_pic"
+        android:fontFamily="@font/alegreya"
+        android:text="Mission Statement"
+        android:textAlignment="center"
+        android:textSize="32sp"
+        android:textStyle="bold" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:layout_below="@id/mission_head"
+        android:textSize="20sp"
+        android:text="The Open Mic is a family oriented all ages creative space where art, commerce and technology meet. Collaboration is emphasized and judgement is discouraged. The goal is to make each person feel welcome enough to peacefully contribute without fear of being judged. It’s a hate free zone where diversity of thought and backgrounds work together to solve problems, build a healthy environment, share and educate. Food and beverages are served to fuel all of this energy."/>
+
+</RelativeLayout>
